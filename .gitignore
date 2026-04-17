@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Conda / venv
+.env
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Uploaded / generated files
+uploads/
+generated_workpapers/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary
+temp/
+tmp/

@@ -1,0 +1,2108 @@
+[
+  {
+    "framework_id": "ISSUE-P001",
+    "seq_no": "P001",
+    "risk_type": "pattern",
+    "risk_title": "同日多笔近似金额交易",
+    "check_goal": "检查是否存在同一日期、同一对手方、金额接近的多笔交易，识别疑似拆分支付或规避审批的情况",
+    "expected_documents": [
+      "交易流水",
+      "付款审批单",
+      "合同",
+      "发票"
+    ],
+    "check_methods": [
+      "数据分析",
+      "核对"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "source_type": "internal_pattern_extension"
+    }
+  },
+  {
+    "framework_id": "ISSUE-P002",
+    "seq_no": "P002",
+    "risk_type": "pattern",
+    "risk_title": "大额异常交易",
+    "check_goal": "检查是否存在金额明显较大、超出常规水平、需重点核查的大额交易",
+    "expected_documents": [
+      "交易流水",
+      "合同",
+      "付款依据",
+      "审批资料"
+    ],
+    "check_methods": [
+      "数据分析",
+      "抽查"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "source_type": "internal_pattern_extension"
+    }
+  },
+  {
+    "framework_id": "ISSUE-P003",
+    "seq_no": "P003",
+    "risk_type": "pattern",
+    "risk_title": "集中支付风险",
+    "check_goal": "检查是否存在短时间内集中向同一对手方或同类摘要支付款项的情况",
+    "expected_documents": [
+      "交易流水",
+      "付款申请单",
+      "合同"
+    ],
+    "check_methods": [
+      "数据分析",
+      "核对"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "source_type": "internal_pattern_extension"
+    }
+  },
+  {
+    "framework_id": "ISSUE-P004",
+    "seq_no": "P004",
+    "risk_type": "pattern",
+    "risk_title": "单一对手方集中交易",
+    "check_goal": "检查是否存在交易高度集中于单一对手方的情况",
+    "expected_documents": [
+      "交易流水",
+      "供应商/客户资料",
+      "合同"
+    ],
+    "check_methods": [
+      "数据分析",
+      "核对"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "source_type": "internal_pattern_extension"
+    }
+  },
+  {
+    "framework_id": "ISSUE-P005",
+    "seq_no": "P005",
+    "risk_type": "pattern",
+    "risk_title": "疑似拆分支付",
+    "check_goal": "检查是否存在为规避审批、限额或授权而拆分支付的情况",
+    "expected_documents": [
+      "交易流水",
+      "付款审批单",
+      "授权审批制度",
+      "合同"
+    ],
+    "check_methods": [
+      "数据分析",
+      "核对"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "source_type": "internal_pattern_extension"
+    }
+  },
+  {
+    "framework_id": "ISSUE-P006",
+    "seq_no": "P006",
+    "risk_type": "pattern",
+    "risk_title": "高频报销异常",
+    "check_goal": "检查是否存在短期内频繁发生报销类交易、摘要相似或金额异常的情况",
+    "expected_documents": [
+      "交易流水",
+      "报销单",
+      "审批记录",
+      "发票"
+    ],
+    "check_methods": [
+      "数据分析",
+      "核对"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "source_type": "internal_pattern_extension"
+    }
+  },
+  {
+    "framework_id": "ISSUE-P007",
+    "seq_no": "P007",
+    "risk_type": "pattern",
+    "risk_title": "重复摘要或重复金额交易",
+    "check_goal": "检查是否存在摘要重复、金额重复、日期接近的可疑重复交易",
+    "expected_documents": [
+      "交易流水",
+      "合同",
+      "发票",
+      "付款申请"
+    ],
+    "check_methods": [
+      "数据分析",
+      "核对"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "source_type": "internal_pattern_extension"
+    }
+  },
+  {
+    "framework_id": "ISSUE-P008",
+    "seq_no": "P008",
+    "risk_type": "pattern",
+    "risk_title": "长期挂账或账龄异常",
+    "check_goal": "检查是否存在长期挂账、账龄异常、长期未清理往来的情况",
+    "expected_documents": [
+      "往来明细账",
+      "账龄分析表",
+      "催收记录",
+      "签认记录"
+    ],
+    "check_methods": [
+      "数据分析",
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "source_type": "internal_pattern_extension"
+    }
+  },
+  {
+    "framework_id": "ISSUE-001",
+    "seq_no": "1",
+    "risk_type": "advanced",
+    "risk_title": "财务人员是否有违反有关规定在企业、社会团体、中介机构中兼职，或者经批准兼职但获取薪酬、奖金、津贴、股权激励等额外利益的情况",
+    "check_goal": "财务人员是否有违反有关规定在企业、社会团体、中介机构中兼职，或者经批准兼职但获取薪酬、奖金、津贴、股权激励等额外利益的情况",
+    "expected_documents": [
+      "财务部门人员考勤表"
+    ],
+    "check_methods": [
+      "审阅",
+      "访谈"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-002",
+    "seq_no": "2",
+    "risk_type": "advanced",
+    "risk_title": "财务人员是否有利用职权或职务上的影响为本人或者其他人谋取利益的情况",
+    "check_goal": "财务人员是否有利用职权或职务上的影响为本人或者其他人谋取利益的情况",
+    "expected_documents": [
+      "会计凭证"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-003",
+    "seq_no": "3",
+    "risk_type": "advanced",
+    "risk_title": "财务人员是否存在商业贿赂行为",
+    "check_goal": "财务人员是否存在商业贿赂行为",
+    "expected_documents": [
+      "举报材料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-004",
+    "seq_no": "4",
+    "risk_type": "advanced",
+    "risk_title": "财务人员是否存在办公用房不符合规定的情况",
+    "check_goal": "财务人员是否存在办公用房不符合规定的情况",
+    "expected_documents": [],
+    "check_methods": [
+      "实地检查"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-005",
+    "seq_no": "5",
+    "risk_type": "advanced",
+    "risk_title": "财务人员是否存在公车私用、私车公养的情况",
+    "check_goal": "财务人员是否存在公车私用、私车公养的情况",
+    "expected_documents": [
+      "行车路单",
+      "车辆费用凭证",
+      "GPS记录"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-006",
+    "seq_no": "6",
+    "risk_type": "advanced",
+    "risk_title": "是否存在主业向多元企业让利的情况",
+    "check_goal": "是否存在主业向多元企业让利的情况",
+    "expected_documents": [
+      "合同",
+      "合同履行资料",
+      "会计凭证"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-007",
+    "seq_no": "7",
+    "risk_type": "advanced",
+    "risk_title": "是否存在违规发放各类购物卡、消费券的情况",
+    "check_goal": "是否存在违规发放各类购物卡、消费券的情况",
+    "expected_documents": [
+      "会议纪要",
+      "访谈"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-008",
+    "seq_no": "8",
+    "risk_type": "advanced",
+    "risk_title": "是否存在超标准缴纳住房公积金和社保费用的情况",
+    "check_goal": "是否存在超标准缴纳住房公积金和社保费用的情况",
+    "expected_documents": [
+      "五险一金缴纳记录"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-009",
+    "seq_no": "9",
+    "risk_type": "advanced",
+    "risk_title": "是否存在违规拆借资金或为他人提供担保的情况",
+    "check_goal": "是否存在违规拆借资金或为他人提供担保的情况",
+    "expected_documents": [
+      "访谈",
+      "会计凭证"
+    ],
+    "check_methods": [],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-010",
+    "seq_no": "10",
+    "risk_type": "advanced",
+    "risk_title": "是否存在违规设立职工持股公司的情况",
+    "check_goal": "是否存在违规设立职工持股公司的情况",
+    "expected_documents": [
+      "会计账簿"
+    ],
+    "check_methods": [
+      "检查是否存在异常项目"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-011",
+    "seq_no": "11",
+    "risk_type": "advanced",
+    "risk_title": "是否存在隐匿、截留、转移收入或向特定单位输送利益，违规提前或滞后确认收入的情况",
+    "check_goal": "是否存在隐匿、截留、转移收入或向特定单位输送利益，违规提前或滞后确认收入的情况",
+    "expected_documents": [
+      "合同台账",
+      "合同",
+      "合同履行记录",
+      "会计凭证"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-012",
+    "seq_no": "12",
+    "risk_type": "advanced",
+    "risk_title": "是否存在乱挤乱摊投资、成本，蓄意虚列少列投资、成本或费用的情况",
+    "check_goal": "是否存在乱挤乱摊投资、成本，蓄意虚列少列投资、成本或费用的情况",
+    "expected_documents": [
+      "会计凭证",
+      "会计账簿"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-013",
+    "seq_no": "13",
+    "risk_type": "advanced",
+    "risk_title": "是否存在随意变更会计处理方法，人为调节损益的情况",
+    "check_goal": "是否存在随意变更会计处理方法，人为调节损益的情况",
+    "expected_documents": [
+      "会计凭证",
+      "会计账簿"
+    ],
+    "check_methods": [
+      "审阅",
+      "访谈"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-014",
+    "seq_no": "14",
+    "risk_type": "advanced",
+    "risk_title": "是否存在公款私存，违规开设银行账户的情况",
+    "check_goal": "是否存在公款私存，违规开设银行账户的情况",
+    "expected_documents": [
+      "银行存款记录",
+      "开户记录"
+    ],
+    "check_methods": [
+      "查询",
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-015",
+    "seq_no": "15",
+    "risk_type": "advanced",
+    "risk_title": "是否存在滥发津贴、补贴、奖金，或擅自增加薪酬项目、提高薪酬标准，擅自设立津贴补贴项目、提高津贴补贴标准，或在工资总额外列支任何工资性津补贴项目的情况",
+    "check_goal": "是否存在滥发津贴、补贴、奖金，或擅自增加薪酬项目、提高薪酬标准，擅自设立津贴补贴项目、提高津贴补贴标准，或在工资总额外列支任何工资性津补贴项目的情况",
+    "expected_documents": [
+      "应付工资",
+      "各项补贴",
+      "会计凭证"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-016",
+    "seq_no": "16",
+    "risk_type": "advanced",
+    "risk_title": "是否存在擅自扩大福利费支出范围的情况",
+    "check_goal": "是否存在擅自扩大福利费支出范围的情况",
+    "expected_documents": [
+      "应付福利费账簿",
+      "福利费支出基础资料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-017",
+    "seq_no": "17",
+    "risk_type": "advanced",
+    "risk_title": "是否存在白条入账的情况",
+    "check_goal": "是否存在白条入账的情况",
+    "expected_documents": [
+      "会计凭证"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-018",
+    "seq_no": "18",
+    "risk_type": "advanced",
+    "risk_title": "是否存在违反规定使用备用金的情况",
+    "check_goal": "是否存在违反规定使用备用金的情况",
+    "expected_documents": [
+      "备用金账簿及相关凭证"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-019",
+    "seq_no": "19",
+    "risk_type": "advanced",
+    "risk_title": "是否存在未按规定对应收款项及时追索或采取有效保全措施的情况",
+    "check_goal": "是否存在未按规定对应收款项及时追索或采取有效保全措施的情况",
+    "expected_documents": [
+      "应收账款明细",
+      "长期挂账情况说明",
+      "催收记录",
+      "签认记录"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-020",
+    "seq_no": "20",
+    "risk_type": "advanced",
+    "risk_title": "是否存在通过加油卡虚假充值、虚假消费等套取现金的情况",
+    "check_goal": "是否存在通过加油卡虚假充值、虚假消费等套取现金的情况",
+    "expected_documents": [
+      "加油卡管理记录"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-021",
+    "seq_no": "21",
+    "risk_type": "advanced",
+    "risk_title": "是否存在无公务目的的差旅核销、借出差或外出培训之机绕道旅游、早去晚归、超标乘车乘机和住宿、虚假业务套现、核销个人费用的情况",
+    "check_goal": "是否存在无公务目的的差旅核销、借出差或外出培训之机绕道旅游、早去晚归、超标乘车乘机和住宿、虚假业务套现、核销个人费用的情况",
+    "expected_documents": [
+      "记账凭证及附件"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-022",
+    "seq_no": "22",
+    "risk_type": "advanced",
+    "risk_title": "是否存在超标发放讲课酬金、虚发讲课酬金、超标超范围发放奖品、违规使用技能鉴定费用的情况",
+    "check_goal": "是否存在超标发放讲课酬金、虚发讲课酬金、超标超范围发放奖品、违规使用技能鉴定费用的情况",
+    "expected_documents": [
+      "记账凭证及附件"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-023",
+    "seq_no": "23",
+    "risk_type": "advanced",
+    "risk_title": "是否存在公务接待中超标准超规格、陪餐人数超标、提供香烟、提供高档酒水和高档菜肴、虚开票据套现、公款送礼、核销应由个人承担的费用、虚列其它费用支出套取资金支付接待费、接待清单不齐全的情况",
+    "check_goal": "是否存在公务接待中超标准超规格、陪餐人数超标、提供香烟、提供高档酒水和高档菜肴、虚开票据套现、公款送礼、核销应由个人承担的费用、虚列其它费用支出套取资金支付接待费、接待清单不齐全的情况",
+    "expected_documents": [
+      "记账凭证及附件"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-024",
+    "seq_no": "24",
+    "risk_type": "advanced",
+    "risk_title": "是否存在隐瞒资产不入账或采取以租代购车辆、房产、设备等方式，形成账外资产的情况",
+    "check_goal": "是否存在隐瞒资产不入账或采取以租代购车辆、房产、设备等方式，形成账外资产的情况",
+    "expected_documents": [
+      "固定资产清查资料",
+      "资产租赁合同"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-025",
+    "seq_no": "25",
+    "risk_type": "advanced",
+    "risk_title": "是否存在不认真执行会计监督、制约制度，导致贪污、挪用、失窃、携款潜逃等事件发生的情况",
+    "check_goal": "是否存在不认真执行会计监督、制约制度，导致贪污、挪用、失窃、携款潜逃等事件发生的情况",
+    "expected_documents": [
+      "举报材料",
+      "会计账簿"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-026",
+    "seq_no": "26",
+    "risk_type": "advanced",
+    "risk_title": "是否存在隐瞒收入、虚列支出、转移资金或利用表外公司、账外公司设立“小金库”的情况",
+    "check_goal": "是否存在隐瞒收入、虚列支出、转移资金或利用表外公司、账外公司设立“小金库”的情况",
+    "expected_documents": [
+      "会计账簿",
+      "举报材料"
+    ],
+    "check_methods": [
+      "审阅",
+      "访谈"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-027",
+    "seq_no": "27",
+    "risk_type": "advanced",
+    "risk_title": "是否存在截留、坐支、挪用资金的情况",
+    "check_goal": "是否存在截留、坐支、挪用资金的情况",
+    "expected_documents": [
+      "会计账簿"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-028",
+    "seq_no": "28",
+    "risk_type": "advanced",
+    "risk_title": "是否存在擅自动用、使用专项资金或改变专项资金用途的情况",
+    "check_goal": "是否存在擅自动用、使用专项资金或改变专项资金用途的情况",
+    "expected_documents": [
+      "会计账簿",
+      "会计凭证"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-029",
+    "seq_no": "29",
+    "risk_type": "advanced",
+    "risk_title": "是否存在违规使用票据，或者发现票据遗失、出错和票据不实等情况后，不及时采取有效措施造成损失的情况",
+    "check_goal": "是否存在违规使用票据，或者发现票据遗失、出错和票据不实等情况后，不及时采取有效措施造成损失的情况",
+    "expected_documents": [
+      "票据使用记录",
+      "票据检查记录"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-030",
+    "seq_no": "30",
+    "risk_type": "advanced",
+    "risk_title": "是否存在重要税务争议发生后，不及时采取有效应对措施或故意隐瞒、未按规定及时报告的情况",
+    "check_goal": "是否存在重要税务争议发生后，不及时采取有效应对措施或故意隐瞒、未按规定及时报告的情况",
+    "expected_documents": [
+      "税务申报资料"
+    ],
+    "check_methods": [
+      "审阅",
+      "访谈"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-031",
+    "seq_no": "31",
+    "risk_type": "advanced",
+    "risk_title": "是否存在对外虚开发票配合其他企业及个人偷税的情况",
+    "check_goal": "是否存在对外虚开发票配合其他企业及个人偷税的情况",
+    "expected_documents": [
+      "发票开具通知单",
+      "发票"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-032",
+    "seq_no": "32",
+    "risk_type": "advanced",
+    "risk_title": "是否存在提供虚假情况和资料，或者与资产评估机构串通作弊，致使资产评估结果失实的情况",
+    "check_goal": "是否存在提供虚假情况和资料，或者与资产评估机构串通作弊，致使资产评估结果失实的情况",
+    "expected_documents": [
+      "资产评估资料",
+      "会计账簿"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-033",
+    "seq_no": "33",
+    "risk_type": "advanced",
+    "risk_title": "是否存在隐瞒资产真实情况，或者不按规定进行清产核资、资产评估、产权登记的情况",
+    "check_goal": "是否存在隐瞒资产真实情况，或者不按规定进行清产核资、资产评估、产权登记的情况",
+    "expected_documents": [
+      "资产清查资料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-034",
+    "seq_no": "34",
+    "risk_type": "advanced",
+    "risk_title": "是否存在以明显低于市场价格出售、转让、折股、出租、发包或无偿处置资产，或者以明显高于市场价格收购资产的情况",
+    "check_goal": "是否存在以明显低于市场价格出售、转让、折股、出租、发包或无偿处置资产，或者以明显高于市场价格收购资产的情况",
+    "expected_documents": [
+      "资产处置资料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-035",
+    "seq_no": "35",
+    "risk_type": "advanced",
+    "risk_title": "是否存在擅自出售、转让或许可使用科研成果和知识产权的情况",
+    "check_goal": "是否存在擅自出售、转让或许可使用科研成果和知识产权的情况",
+    "expected_documents": [
+      "无形资产处置资料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-036",
+    "seq_no": "36",
+    "risk_type": "advanced",
+    "risk_title": "是否存在在资产管理工作中不履行或不正确履行职责，造成经济损失或者致使损失扩大的情况",
+    "check_goal": "是否存在在资产管理工作中不履行或不正确履行职责，造成经济损失或者致使损失扩大的情况",
+    "expected_documents": [
+      "资产清查资料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-037",
+    "seq_no": "37",
+    "risk_type": "advanced",
+    "risk_title": "是否存在弄虚作假获得投资项目审批，或者拆分项目规避审批的情况",
+    "check_goal": "是否存在弄虚作假获得投资项目审批，或者拆分项目规避审批的情况",
+    "expected_documents": [
+      "投资台账",
+      "会计账簿"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-038",
+    "seq_no": "38",
+    "risk_type": "advanced",
+    "risk_title": "是否存在计划外投资、超计划投资或擅自改变投资计划的情况",
+    "check_goal": "是否存在计划外投资、超计划投资或擅自改变投资计划的情况",
+    "expected_documents": [
+      "投资计划及实施情况"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-039",
+    "seq_no": "39",
+    "risk_type": "advanced",
+    "risk_title": "是否存在未经批准或授权对外投资的情况",
+    "check_goal": "是否存在未经批准或授权对外投资的情况",
+    "expected_documents": [
+      "会计账簿",
+      "投资合同",
+      "单程"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-040",
+    "seq_no": "40",
+    "risk_type": "advanced",
+    "risk_title": "是否存在擅自开工建设、扩大建设规模或引进范围、变更建设内容，造成投资损失的情况",
+    "check_goal": "是否存在擅自开工建设、扩大建设规模或引进范围、变更建设内容，造成投资损失的情况",
+    "expected_documents": [
+      "投资项目台账",
+      "会计账簿"
+    ],
+    "check_methods": [
+      "访谈"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-041",
+    "seq_no": "41",
+    "risk_type": "advanced",
+    "risk_title": "是否存在在投资管理工作中不履行或不正确履行职责，造成经济损失或致使损失扩大的情况",
+    "check_goal": "是否存在在投资管理工作中不履行或不正确履行职责，造成经济损失或致使损失扩大的情况",
+    "expected_documents": [
+      "投资项目台账",
+      "会计账簿"
+    ],
+    "check_methods": [
+      "审阅",
+      "访谈"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-042",
+    "seq_no": "42",
+    "risk_type": "advanced",
+    "risk_title": "是否存在串通、协助供应商、承包商提供虚假材料，或者私自更改、销毁、泄露供应商、承包商信息的情况",
+    "check_goal": "是否存在串通、协助供应商、承包商提供虚假材料，或者私自更改、销毁、泄露供应商、承包商信息的情况",
+    "expected_documents": [
+      "投资计划及实施情况"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-043",
+    "seq_no": "43",
+    "risk_type": "advanced",
+    "risk_title": "是否存在无计划采购非应急物资，或者盲目制定物资采购计划，造成物资积压、浪费的情况",
+    "check_goal": "是否存在无计划采购非应急物资，或者盲目制定物资采购计划，造成物资积压、浪费的情况",
+    "expected_documents": [
+      "投资台账"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-044",
+    "seq_no": "44",
+    "risk_type": "advanced",
+    "risk_title": "是否存在采购价格与市场同类商品价格相比明显偏高的情况",
+    "check_goal": "是否存在采购价格与市场同类商品价格相比明显偏高的情况",
+    "expected_documents": [
+      "往来科目"
+    ],
+    "check_methods": [
+      "访谈",
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-045",
+    "seq_no": "45",
+    "risk_type": "advanced",
+    "risk_title": "是否存在采购标的物与合同约定严重不符而未采取有效措施的情况",
+    "check_goal": "是否存在采购标的物与合同约定严重不符而未采取有效措施的情况",
+    "expected_documents": [
+      "基建项目工程档案"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-046",
+    "seq_no": "46",
+    "risk_type": "advanced",
+    "risk_title": "是否存在未经批准在供应商资源库以外选择供应商的情况",
+    "check_goal": "是否存在未经批准在供应商资源库以外选择供应商的情况",
+    "expected_documents": [
+      "基建项目工程档案"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-047",
+    "seq_no": "47",
+    "risk_type": "advanced",
+    "risk_title": "是否存在干预、插手物资采购管理事项，或者授意、指使、串通违规采购物资的情况",
+    "check_goal": "是否存在干预、插手物资采购管理事项，或者授意、指使、串通违规采购物资的情况",
+    "expected_documents": [
+      "举报材料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-048",
+    "seq_no": "48",
+    "risk_type": "advanced",
+    "risk_title": "是否存在对应当进行招标的项目不进行招标，或者进行虚假招标，或者采取将项目化整为零以及其他方式规避招标的情况",
+    "check_goal": "是否存在对应当进行招标的项目不进行招标，或者进行虚假招标，或者采取将项目化整为零以及其他方式规避招标的情况",
+    "expected_documents": [
+      "招标资料（该内容非财务内容）"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-049",
+    "seq_no": "49",
+    "risk_type": "advanced",
+    "risk_title": "是否存在转包或者违规分包工程的情况",
+    "check_goal": "是否存在转包或者违规分包工程的情况",
+    "expected_documents": [
+      "工程结算资料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-050",
+    "seq_no": "50",
+    "risk_type": "advanced",
+    "risk_title": "是否存在未按规定进行项目结算、决算、竣工验收的情况",
+    "check_goal": "是否存在未按规定进行项目结算、决算、竣工验收的情况",
+    "expected_documents": [
+      "会计凭证"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-051",
+    "seq_no": "51",
+    "risk_type": "advanced",
+    "risk_title": "是否存在擅自拆分合同或者签订虚假合同的情况",
+    "check_goal": "是否存在擅自拆分合同或者签订虚假合同的情况",
+    "expected_documents": [
+      "合同台账",
+      "合同"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-052",
+    "seq_no": "52",
+    "risk_type": "advanced",
+    "risk_title": "是否存在不按合同约定支付款项，或违反合同约定超计价、超进度付款的情况",
+    "check_goal": "是否存在不按合同约定支付款项，或违反合同约定超计价、超进度付款的情况",
+    "expected_documents": [
+      "合同",
+      "合同履行资料",
+      "会计凭证"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-053",
+    "seq_no": "53",
+    "risk_type": "advanced",
+    "risk_title": "是否存在隐瞒或不及时报告合同履行异常的情况",
+    "check_goal": "是否存在隐瞒或不及时报告合同履行异常的情况",
+    "expected_documents": [
+      "合同履行资料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-054",
+    "seq_no": "54",
+    "risk_type": "advanced",
+    "risk_title": "是否存在擅自放弃或怠于行使权利造成经济损失的情况",
+    "check_goal": "是否存在擅自放弃或怠于行使权利造成经济损失的情况",
+    "expected_documents": [
+      "合同履行资料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-055",
+    "seq_no": "55",
+    "risk_type": "advanced",
+    "risk_title": "是否存在不履行或不正确履行职责，引起法律纠纷案件的情况",
+    "check_goal": "是否存在不履行或不正确履行职责，引起法律纠纷案件的情况",
+    "expected_documents": [
+      "合同履行资料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-056",
+    "seq_no": "56",
+    "risk_type": "advanced",
+    "risk_title": "其他违反规定，造成损失或其他严重不良后果的情形",
+    "check_goal": "其他违反规定，造成损失或其他严重不良后果的情形",
+    "expected_documents": [
+      "视检查情况而定"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  },
+  {
+    "framework_id": "ISSUE-057",
+    "seq_no": "57",
+    "risk_type": "advanced",
+    "risk_title": "民营企业账款审计方案",
+    "check_goal": "民营企业账款审计方案",
+    "expected_documents": [
+      "应付账款账龄分析资料"
+    ],
+    "check_methods": [
+      "审阅"
+    ],
+    "output_fields": [
+      "has_issue",
+      "status",
+      "issue_description",
+      "amount_involved",
+      "risk_level",
+      "rectification_suggestion",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "Sheet1 (2)",
+      "source_columns": {
+        "check_content": "检查内容",
+        "required_documents": "取得资料内容",
+        "check_method": "检查方法"
+      }
+    }
+  }
+]

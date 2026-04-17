@@ -1,0 +1,1874 @@
+[
+  {
+    "framework_id": "INSP-001",
+    "area": "（一）资金管理情况",
+    "topic": "1.资金管理制度建设与执行情况",
+    "check_goal": "1）建立资金管理制度，包括但不限于库存现金、备用金、票据、账户、银行存款、收支审批、授权、担保授信、岗位职责等",
+    "focus_points": [
+      "1）建立资金管理制度，包括但不限于库存现金、备用金、票据、账户、银行存款、收支审批、授权、担保授信、岗位职责等"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-002",
+    "area": "（一）资金管理情况",
+    "topic": "1.资金管理制度建设与执行情况",
+    "check_goal": "2）建立资金管理内控流程",
+    "focus_points": [
+      "2）建立资金管理内控流程"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-003",
+    "area": "（一）资金管理情况",
+    "topic": "1.资金管理制度建设与执行情况",
+    "check_goal": "3）建立大额资金收支管理制度",
+    "focus_points": [
+      "3）建立大额资金收支管理制度"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-004",
+    "area": "（一）资金管理情况",
+    "topic": "1.资金管理制度建设与执行情况",
+    "check_goal": "4）资金授权等业务超出上级公司授权范围",
+    "focus_points": [
+      "4）资金授权等业务超出上级公司授权范围"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-005",
+    "area": "（一）资金管理情况",
+    "topic": "1.资金管理制度建设与执行情况",
+    "check_goal": "5）建立了资金重大事项报告制度并严格执行",
+    "focus_points": [
+      "5）建立了资金重大事项报告制度并严格执行"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-006",
+    "area": "（一）资金管理情况",
+    "topic": "1.资金管理制度建设与执行情况",
+    "check_goal": "6）建立了完善的资金事件追责制度",
+    "focus_points": [
+      "6）建立了完善的资金事件追责制度"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-007",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "7）银行账户开户、变更等基础资料完整",
+    "focus_points": [
+      "7）银行账户开户、变更等基础资料完整"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-008",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "8）银行账户开立、变更、撤销符合国家及公司相关规定",
+    "focus_points": [
+      "8）银行账户开立、变更、撤销符合国家及公司相关规定"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-009",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "9）按照公司要求履行审批流程",
+    "focus_points": [
+      "9）按照公司要求履行审批流程"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-010",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "10）按规定使用银行账户",
+    "focus_points": [
+      "10）按规定使用银行账户"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-011",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "11）银行账户按规定纳入资金集中管理",
+    "focus_points": [
+      "11）银行账户按规定纳入资金集中管理"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-012",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "12）可集中资金全部集中",
+    "focus_points": [
+      "12）可集中资金全部集中"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-013",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "13）按规定对银行账户使用情况进行检查，包括但不限于账户状态、账实相符、款项用途等",
+    "focus_points": [
+      "13）按规定对银行账户使用情况进行检查，包括但不限于账户状态、账实相符、款项用途等"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-014",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "14）存在长期无动态账户或冗余账户",
+    "focus_points": [
+      "14）存在长期无动态账户或冗余账户"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-015",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "15）存在出租出借银行账户等账户使用的违规行为",
+    "focus_points": [
+      "15）存在出租出借银行账户等账户使用的违规行为"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-016",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "16）收入及时存入单位指定账户",
+    "focus_points": [
+      "16）收入及时存入单位指定账户"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-017",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "17）对外支付严格执行审批等内控流程",
+    "focus_points": [
+      "17）对外支付严格执行审批等内控流程"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-018",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "18）对外支出实行多级审核",
+    "focus_points": [
+      "18）对外支出实行多级审核"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-019",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "19）非出纳财务人员定期核对银行账户余额，编制银行存款余额调节表",
+    "focus_points": [
+      "19）非出纳财务人员定期核对银行账户余额，编制银行存款余额调节表"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-020",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "20）余额调节表经会计主管人员签字",
+    "focus_points": [
+      "20）余额调节表经会计主管人员签字"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-021",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "21）对于未达账项，查明原因，及时处理",
+    "focus_points": [
+      "21）对于未达账项，查明原因，及时处理"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-022",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "22）有长期未达账项",
+    "focus_points": [
+      "22）有长期未达账项"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-023",
+    "area": "（一）资金管理情况",
+    "topic": "2.银行账户资金管理情况",
+    "check_goal": "23）对异常未达账项及时上报有关领导",
+    "focus_points": [
+      "23）对异常未达账项及时上报有关领导"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-024",
+    "area": "（一）资金管理情况",
+    "topic": "3.现金管理情况",
+    "check_goal": "24）按国家及公司相关规定范围使用库存现金",
+    "focus_points": [
+      "24）按国家及公司相关规定范围使用库存现金"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-025",
+    "area": "（一）资金管理情况",
+    "topic": "3.现金管理情况",
+    "check_goal": "25）库存现金符合相关制度规定限额",
+    "focus_points": [
+      "25）库存现金符合相关制度规定限额"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-026",
+    "area": "（一）资金管理情况",
+    "topic": "3.现金管理情况",
+    "check_goal": "26）按照规定保管、交存现金",
+    "focus_points": [
+      "26）按照规定保管、交存现金"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-027",
+    "area": "（一）资金管理情况",
+    "topic": "3.现金管理情况",
+    "check_goal": "27）每日清点库存现金，做到日清月结",
+    "focus_points": [
+      "27）每日清点库存现金，做到日清月结"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-028",
+    "area": "（一）资金管理情况",
+    "topic": "3.现金管理情况",
+    "check_goal": "28）按国家及公司相关规定范围使用备用金",
+    "focus_points": [
+      "28）按国家及公司相关规定范围使用备用金"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-029",
+    "area": "（一）资金管理情况",
+    "topic": "3.现金管理情况",
+    "check_goal": "29）定期清理备用金",
+    "focus_points": [
+      "29）定期清理备用金"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-030",
+    "area": "（一）资金管理情况",
+    "topic": "3.现金管理情况",
+    "check_goal": "30）建立健全现金日记账",
+    "focus_points": [
+      "30）建立健全现金日记账"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-031",
+    "area": "（一）资金管理情况",
+    "topic": "3.现金管理情况",
+    "check_goal": "31）存在现金坐收坐支、违规出借、白条抵库等违规使用行为",
+    "focus_points": [
+      "31）存在现金坐收坐支、违规出借、白条抵库等违规使用行为"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-032",
+    "area": "（一）资金管理情况",
+    "topic": "4.财务人员配备与管理情况",
+    "check_goal": "32）出纳人员超三年未轮换",
+    "focus_points": [
+      "32）出纳人员超三年未轮换"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-033",
+    "area": "（一）资金管理情况",
+    "topic": "4.财务人员配备与管理情况",
+    "check_goal": "33）有外籍财务人员（若有，请在备注中说明各岗位人员数量，任职时间）",
+    "focus_points": [
+      "33）有外籍财务人员（若有，请在备注中说明各岗位人员数量，任职时间）"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-034",
+    "area": "（一）资金管理情况",
+    "topic": "4.财务人员配备与管理情况",
+    "check_goal": "34）出纳人员兼管稽核、会计档案保管和收入、费用、债权债务账目的登记工作",
+    "focus_points": [
+      "34）出纳人员兼管稽核、会计档案保管和收入、费用、债权债务账目的登记工作"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-035",
+    "area": "（一）资金管理情况",
+    "topic": "4.财务人员配备与管理情况",
+    "check_goal": "35）存在会计人员兼任出纳，出纳兼管银行对账、编制银行存款余额调节表的情况",
+    "focus_points": [
+      "35）存在会计人员兼任出纳，出纳兼管银行对账、编制银行存款余额调节表的情况"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-036",
+    "area": "（一）资金管理情况",
+    "topic": "4.财务人员配备与管理情况",
+    "check_goal": "36）建立财务人员交接制度",
+    "focus_points": [
+      "36）建立财务人员交接制度"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-037",
+    "area": "（一）资金管理情况",
+    "topic": "4.财务人员配备与管理情况",
+    "check_goal": "37）财务人员工作离岗、调动或离职，按制度规定办理交接手续",
+    "focus_points": [
+      "37）财务人员工作离岗、调动或离职，按制度规定办理交接手续"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-038",
+    "area": "（一）资金管理情况",
+    "topic": "4.财务人员配备与管理情况",
+    "check_goal": "38）制定财务稽查制度, 设立稽查岗位，有专(兼)职稽查人员",
+    "focus_points": [
+      "38）制定财务稽查制度, 设立稽查岗位，有专(兼)职稽查人员"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-039",
+    "area": "（一）资金管理情况",
+    "topic": "4.财务人员配备与管理情况",
+    "check_goal": "39）稽查人员对本单位重点业务有计划地开展监督检查，并组织问题整改",
+    "focus_points": [
+      "39）稽查人员对本单位重点业务有计划地开展监督检查，并组织问题整改"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-040",
+    "area": "（一）资金管理情况",
+    "topic": "5.网银U盾、银行印鉴及重要票证管理情况",
+    "check_goal": "40）建立网银U盾、财务印鉴及重要凭证的取得、保管、使用、交接、作废等管理流程和台账，并严格执行",
+    "focus_points": [
+      "40）建立网银U盾、财务印鉴及重要凭证的取得、保管、使用、交接、作废等管理流程和台账，并严格执行"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-041",
+    "area": "（一）资金管理情况",
+    "topic": "5.网银U盾、银行印鉴及重要票证管理情况",
+    "check_goal": "41）网银U盾的保管责任人发生变动或者离岗、脱岗时，及时办理移交手续，并由第三人监交",
+    "focus_points": [
+      "41）网银U盾的保管责任人发生变动或者离岗、脱岗时，及时办理移交手续，并由第三人监交"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-042",
+    "area": "（一）资金管理情况",
+    "topic": "5.网银U盾、银行印鉴及重要票证管理情况",
+    "check_goal": "42）网银制单和复核U盾分开保管，密码定期更新",
+    "focus_points": [
+      "42）网银制单和复核U盾分开保管，密码定期更新"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-043",
+    "area": "（一）资金管理情况",
+    "topic": "5.网银U盾、银行印鉴及重要票证管理情况",
+    "check_goal": "43）实行财务资金共享或集中结算的单位，存在未按规定上交网银U盾或依然使用本地银行账户对外支付的情况",
+    "focus_points": [
+      "43）实行财务资金共享或集中结算的单位，存在未按规定上交网银U盾或依然使用本地银行账户对外支付的情况"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-044",
+    "area": "（一）资金管理情况",
+    "topic": "5.网银U盾、银行印鉴及重要票证管理情况",
+    "check_goal": "44）预留银行印鉴和空白票据分开保管",
+    "focus_points": [
+      "44）预留银行印鉴和空白票据分开保管"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-045",
+    "area": "（一）资金管理情况",
+    "topic": "5.网银U盾、银行印鉴及重要票证管理情况",
+    "check_goal": "45）公章、财务章、法人名章等关键印鉴保管人和使用审批人分离",
+    "focus_points": [
+      "45）公章、财务章、法人名章等关键印鉴保管人和使用审批人分离"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-046",
+    "area": "（一）资金管理情况",
+    "topic": "5.网银U盾、银行印鉴及重要票证管理情况",
+    "check_goal": "46）资金审批和经办职务未分离，一人办理货币资金收支全过程",
+    "focus_points": [
+      "46）资金审批和经办职务未分离，一人办理货币资金收支全过程"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-047",
+    "area": "（一）资金管理情况",
+    "topic": "5.网银U盾、银行印鉴及重要票证管理情况",
+    "check_goal": "47）关键岗位人员发生变动或离岗、脱岗时，及时注销网银和资金系统用户权限",
+    "focus_points": [
+      "47）关键岗位人员发生变动或离岗、脱岗时，及时注销网银和资金系统用户权限"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-048",
+    "area": "（一）资金管理情况",
+    "topic": "6.票据管理情况",
+    "check_goal": "48）违反公司禁令收取承兑汇票，对外收取外部单位财务公司承兑汇票（非准入清单内财务公司承兑汇票）、收取负面清单银行承兑汇票、收取纸质承兑汇票",
+    "focus_points": [
+      "48）违反公司禁令收取承兑汇票，对外收取外部单位财务公司承兑汇票（非准入清单内财务公司承兑汇票）、收取负面清单银行承兑汇票、收取纸质承兑汇票"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-049",
+    "area": "（一）资金管理情况",
+    "topic": "6.票据管理情况",
+    "check_goal": "49）擅自向社会单位兑付逾期票据，损害公司经济利益",
+    "focus_points": [
+      "49）擅自向社会单位兑付逾期票据，损害公司经济利益"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-050",
+    "area": "（一）资金管理情况",
+    "topic": "9.特殊资金管理",
+    "check_goal": "67）特殊资金管理遵守国家和公司相关规定，纳入财务监管范围",
+    "focus_points": [
+      "67）特殊资金管理遵守国家和公司相关规定，纳入财务监管范围"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-051",
+    "area": "（一）资金管理情况",
+    "topic": "9.特殊资金管理",
+    "check_goal": "68）按照相关规定将特殊资金纳入专户管理，对特殊资金进行专款专用，没有挤占、截留、挪用或私存等情况",
+    "focus_points": [
+      "68）按照相关规定将特殊资金纳入专户管理，对特殊资金进行专款专用，没有挤占、截留、挪用或私存等情况"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-052",
+    "area": "（一）资金管理情况",
+    "topic": "9.特殊资金管理",
+    "check_goal": "69）新增特殊资金账户按照规定报批",
+    "focus_points": [
+      "69）新增特殊资金账户按照规定报批"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-053",
+    "area": "（一）资金管理情况",
+    "topic": "9.特殊资金管理",
+    "check_goal": "70）特殊资金按照企业经营资金管理要求履行不相容职务分离、印章保管及使用、保险柜秘钥、网银U盾实物及密码口令、出纳岗位轮岗替岗、银行对账等相关规定",
+    "focus_points": [
+      "70）特殊资金按照企业经营资金管理要求履行不相容职务分离、印章保管及使用、保险柜秘钥、网银U盾实物及密码口令、出纳岗位轮岗替岗、银行对账等相关规定"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-054",
+    "area": "（一）资金管理情况",
+    "topic": "9.特殊资金管理",
+    "check_goal": "71）特殊资金的核销、资金支付审批履行授权审批程序",
+    "focus_points": [
+      "71）特殊资金的核销、资金支付审批履行授权审批程序"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-055",
+    "area": "（一）资金管理情况",
+    "topic": "9.特殊资金管理",
+    "check_goal": "72）对特殊资金定期进行清查对账",
+    "focus_points": [
+      "72）对特殊资金定期进行清查对账"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-056",
+    "area": "（一）资金管理情况",
+    "topic": "9.特殊资金管理",
+    "check_goal": "73）定期抽查无动态特殊资金存量资金余额情况",
+    "focus_points": [
+      "73）定期抽查无动态特殊资金存量资金余额情况"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-057",
+    "area": "（一）资金管理情况",
+    "topic": "9.特殊资金管理",
+    "check_goal": "74）对在岗人员配置、账务管理、账户设置、内部监管等情况进行定期检查",
+    "focus_points": [
+      "74）对在岗人员配置、账务管理、账户设置、内部监管等情况进行定期检查"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-058",
+    "area": "（二）会计信息质量",
+    "topic": "1.会计政策",
+    "check_goal": "1）会计政策及会计估计符合会计手册规定",
+    "focus_points": [
+      "1）会计政策及会计估计符合会计手册规定"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-059",
+    "area": "（二）会计信息质量",
+    "topic": "1.会计政策",
+    "check_goal": "2）合并报表范围规范，合并报表范围变化合理、依据充分",
+    "focus_points": [
+      "2）合并报表范围规范，合并报表范围变化合理、依据充分"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-060",
+    "area": "（二）会计信息质量",
+    "topic": "2.收入",
+    "check_goal": "3）存在提前或者延后确认收入、虚列收入情况",
+    "focus_points": [
+      "3）存在提前或者延后确认收入、虚列收入情况"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-061",
+    "area": "（二）会计信息质量",
+    "topic": "2.收入",
+    "check_goal": "4）存在国资委和公司严令禁止的融资性贸易以及“空转”、“走单”等虚假贸易情况",
+    "focus_points": [
+      "4）存在国资委和公司严令禁止的融资性贸易以及“空转”、“走单”等虚假贸易情况"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-062",
+    "area": "（二）会计信息质量",
+    "topic": "2.收入",
+    "check_goal": "5）存在隐瞒收入情况",
+    "focus_points": [
+      "5）存在隐瞒收入情况"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-063",
+    "area": "（二）会计信息质量",
+    "topic": "3.成本费用",
+    "check_goal": "6）存在虚列、多列或者不列、少列成本费用情况",
+    "focus_points": [
+      "6）存在虚列、多列或者不列、少列成本费用情况"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-064",
+    "area": "（二）会计信息质量",
+    "topic": "3.成本费用",
+    "check_goal": "7）存在企业承担应由个人负担的个人所得税及其他费用的现象",
+    "focus_points": [
+      "7）存在企业承担应由个人负担的个人所得税及其他费用的现象"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-065",
+    "area": "（二）会计信息质量",
+    "topic": "4.资产核算",
+    "check_goal": "8）定期进行存货盘点或资产清查、资产核算账实相符（包括存货、固定资产、油气资产、在建工程等）",
+    "focus_points": [
+      "8）定期进行存货盘点或资产清查、资产核算账实相符（包括存货、固定资产、油气资产、在建工程等）"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-066",
+    "area": "（二）会计信息质量",
+    "topic": "4.资产核算",
+    "check_goal": "9）存在长期无动态在建工程（若存在，请备注是否制定了清理方案或应对措施）",
+    "focus_points": [
+      "9）存在长期无动态在建工程（若存在，请备注是否制定了清理方案或应对措施）"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-067",
+    "area": "（二）会计信息质量",
+    "topic": "5.资产减值",
+    "check_goal": "10）计提资产减值符合规定，计提依据合理",
+    "focus_points": [
+      "10）计提资产减值符合规定，计提依据合理"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-068",
+    "area": "（三）小金库",
+    "topic": "1.小金库",
+    "check_goal": "1）虚列支出设立“小金库”情况（包括但不限于工资奖金、物料费、差旅费、劳保费等）",
+    "focus_points": [
+      "1）虚列支出设立“小金库”情况（包括但不限于工资奖金、物料费、差旅费、劳保费等）"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-069",
+    "area": "（三）小金库",
+    "topic": "1.小金库",
+    "check_goal": "2）隐匿收入设立“小金库”（包括但不限于隐瞒闲置资产、土地及运输车辆出租收入、处理废旧物资收入、合同违约金等）",
+    "focus_points": [
+      "2）隐匿收入设立“小金库”（包括但不限于隐瞒闲置资产、土地及运输车辆出租收入、处理废旧物资收入、合同违约金等）"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-070",
+    "area": "（三）小金库",
+    "topic": "1.小金库",
+    "check_goal": "3）转移资产设立“小金库”",
+    "focus_points": [
+      "3）转移资产设立“小金库”"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-071",
+    "area": "（三）小金库",
+    "topic": "1.小金库",
+    "check_goal": "4）利用表外公司以各种方式设立“小金库”",
+    "focus_points": [
+      "4）利用表外公司以各种方式设立“小金库”"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  },
+  {
+    "framework_id": "INSP-072",
+    "area": "（三）小金库",
+    "topic": "1.小金库",
+    "check_goal": "5）严格落实违纪追责的相关规定",
+    "focus_points": [
+      "5）严格落实违纪追责的相关规定"
+    ],
+    "expected_documents": [],
+    "check_methods": [],
+    "output_fields": [
+      "status",
+      "judgment",
+      "evidence",
+      "missing_documents",
+      "remark"
+    ],
+    "hidden_source": {
+      "sheet_name": "检查项目清单",
+      "source_columns": {
+        "category": "类别",
+        "project": "项目",
+        "content": "具体内容"
+      }
+    }
+  }
+]
